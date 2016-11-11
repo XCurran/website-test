@@ -106,7 +106,7 @@ input[type=number] {
 }
 
 input[type=button]{
-	width: 15%;
+	width: 120px;
     background-color: #FFE97F;
     color: #6D5B00;
     padding: 7px 0px;
@@ -185,4 +185,12 @@ input[type=submit]:hover {
 	font-size: 10px;
 	text-align: center;
 	color: #BD2031;
+}
+
+
+/* just adding some media tag to make better phone formatting */
+@media screen and (max-width: 600px) {
+    span{
+        display: block;
+    }
 }
