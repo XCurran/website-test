@@ -44,8 +44,6 @@ a{
 /*properties of the options in the header*/
 ul{
 	width: 100%;
-	position: fixed;
-	
 	text-align:center;
 }
 
@@ -53,8 +51,8 @@ li{
 	position: relative;
 	margin: auto;
 	padding: 2% 10% 0% 2%;
-	bottom: 32px;
 	
+	bottom: 15px;
 	font-size: 10px;
 	display: inline;
 	color: #BD2031;
@@ -62,7 +60,7 @@ li{
 
 /*when you hover your mouse over the options in the header*/
 li:hover{
-	font-weight:bold;
+	color: #5B0F18;
 }
 
 #logo{
