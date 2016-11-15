@@ -187,10 +187,30 @@ input[type=submit]:hover {
 	color: #BD2031;
 }
 
+#return > a:hover{
+	color: #5B0F18;
+}
+
 
 /* just adding some media tag to make better phone formatting */
 @media screen and (max-width: 600px) {
-    span{
+	form{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	textarea {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	span{
         display: block;
     }
+	
+	.block1{
+		display: inline-block;
+	}
 }
+
